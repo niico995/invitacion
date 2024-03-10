@@ -17,6 +17,8 @@ body {
     background-color: #fefefe;
     background-image: url(/img/fondo.jpeg);
     background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
 }
 .lateral1 {
     display: flex;
@@ -41,4 +43,24 @@ body {
     margin-top: -25px;
     margin-left: -70px;
     transform: rotateX(5deg) rotateY(180deg);
+}
+
+.flor4, .flor5 {
+    width: 200px;
+    transform: rotate(180deg);
+}
+.flor4 {
+    margin-right: -10px;
+    transform: rotateX(150deg);
+}
+    
+.flor5 {
+    margin-left: -35px;
+    transform: rotateX(150deg);
+}
+.top1 {
+    display: flex;
+    position: relative;
+    top: -640px;
+    left: 35%;
 }
