@@ -80,8 +80,8 @@ body {
 
 .boton {
     position: relative;
-    top: -800px;
-    left: 50%;
+    top: -700px;
+    left: 60%;
     height: 150px;
     width: 220px;
     padding: 10px;
@@ -106,7 +106,7 @@ body {
 .nombre {
     position: relative;
     top: -620px;
-    left: 18%;
+    left: 32%;
 }
 .posnom {
     position: relative;
