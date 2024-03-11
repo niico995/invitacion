@@ -19,9 +19,10 @@ body {
     background-position: center center;
     background-repeat: repeat;
     position: absolute;
-    max-height: 200px;
+    max-height: 750px;
     max-width: 360px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 .lateral1 {
     display: flex;
@@ -74,6 +75,7 @@ body {
 }
 .changuita {
     width: 200px;
+    height: 250px;
     transform: rotateY(180deg);
 }
 
@@ -82,7 +84,7 @@ body {
     top: -700px;
     left: 60%;
     height: 150px;
-    width: 220px;
+    width: 180px;
     padding: 10px;
     border-radius: 15px;
     background-color: white;
@@ -93,7 +95,7 @@ body {
 .boton a {
     text-decoration: none;
     color: var(--azulOscuro);
-    font-size: 22px;
+    font-size: 18px;
     font-family: Bellefair;
     margin-left: 17px;
 }
@@ -105,7 +107,7 @@ body {
 .nombre {
     position: relative;
     top: -620px;
-    left: 32%;
+    left: 15%;
 }
 .posnom {
     position: relative;
