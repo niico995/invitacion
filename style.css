@@ -100,8 +100,8 @@ body {
 
 .boton {
     position: relative;
-    top: -700px;
-    left: 60%;
+    top: 140px;
+    left: 40%;
     max-height: 150px;
     width: 180px;
     padding: 10px;
@@ -126,8 +126,6 @@ body {
 
 .nombre {
     position: relative;
-    top: -620px;
-    left: 15%;
 }
 .posnom {
     position: relative;
@@ -289,3 +287,14 @@ body {
     gap: 15px;
 }
 
+
+.container2 {
+    background-image: url(./img/fondoprincipal.png);
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 790px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 145px;
+    padding-left: 70px;
+}
