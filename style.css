@@ -20,8 +20,8 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    height: 750px;
-    max-width: 375px;
+    max-height: 200px;
+    max-width: 360px;
     overflow-x: hidden;
 }
 .lateral1 {
@@ -30,22 +30,22 @@ body {
     max-width: 25%;
 }
 .flor  {
-    width: 180px;
+    width: 150px;
     margin-top: 15px;
-    margin-left: -100px;
+    margin-left: -70px;
     transform: rotateX(5deg) rotateY(180deg);
 }
 .flor2 {
-    width: 180px;
+    width: 150px;
     margin-top: -25px;
-    margin-left: -110px;
+    margin-left: -100px;
     transform: rotate(12deg);
 }
 
 .flor3 {
-    width: 180px;
+    width: 150px;
     margin-top: -15px;
-    margin-left: -90px;
+    margin-left: -70px;
     transform: rotateX(5deg) rotateY(180deg);
 }
 
@@ -65,7 +65,7 @@ body {
 .top1 {
     display: flex;
     position: relative;
-    top: -800px;
+    top: -700px;
     left: 35%;
 }
 
@@ -74,14 +74,14 @@ body {
     top: -550px;
 }
 .changuita {
-    width: 250px;
+    width: 200px;
     transform: rotateY(180deg);
 }
 
 .boton {
     position: relative;
-    top: -650px;
-    left: 68%;
+    top: -800px;
+    left: 50%;
     height: 150px;
     width: 220px;
     padding: 10px;
@@ -105,8 +105,8 @@ body {
 
 .nombre {
     position: relative;
-    top: -700px;
-    left: 40%;
+    top: -620px;
+    left: 15%;
 }
 .posnom {
     position: relative;
@@ -119,6 +119,7 @@ body {
     font-family: "Alex Brush", cursive;
     font-weight: 400;
     font-style: normal;
+    color: var(--azulOscuro);
 }
 .apellido {
     margin-left: 45px;
