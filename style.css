@@ -152,7 +152,7 @@ body {
 .infoFecha {
     position: relative;
     max-height: 50px;
-    top: -800px;
+    top: -850px;
     left: 40%;
     display: flex;
     gap: 20px;
@@ -177,7 +177,7 @@ body {
 
 .direccion {
     position: relative;
-    top: -750px;
+    top: -800px;
     left: 25%;
     text-align: center;
     display: flex;
@@ -189,6 +189,8 @@ body {
 .dire {
     font-size: 20px;
     font-family: Bellefair;
+    text-decoration: none;
+    color: var(--azulOscuro);
 }
 .encuadre {
     border: 1.5px solid var(--azulOscuro);
@@ -218,4 +220,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.btn {
+    border: 1px solid var(--azulOscuro);
+    border-radius: 15px;
+    width: 120px;
+    height: 30px;
+    padding: 3px;
+    position: relative;
+    left: 30%;
+    margin-top: 10px;
 }
