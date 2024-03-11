@@ -82,19 +82,24 @@ body {
     position: relative;
     top: -650px;
     left: 68%;
-    height: 50px;
-    width: 120px;
-    padding-top: 15px;
-    padding-left: 5px;
-    border-radius: 5px;
-    background-color: var(--plata);
+    height: 150px;
+    width: 220px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    /*border: 2px solid var(--azulOscuro);*/
+    box-shadow: 2px 2px 2px rgb(14, 14, 138);
 }
 
 .boton a {
     text-decoration: none;
     color: var(--azulOscuro);
-    font-size: 18px;
+    font-size: 22px;
     font-family: Bellefair;
+    margin-left: 17px;
+}
+.carta {
+    width: 20px;
 }
 
 .nombre {
@@ -110,7 +115,7 @@ body {
 
 .nomb, .apellido {
     font-size: 72px;
-    font-family: Bellefair;
+    font-family: "Alex Brush", cursive;
     font-weight: 400;
     font-style: normal;
 }
