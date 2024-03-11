@@ -12,6 +12,24 @@
 }
 
 body {
+   /* display: flex;
+    flex-direction: column;
+    background-color: #fefefe;
+    background-image: url(/img/fondo.jpeg.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: repeat; 
+    position: absolute; */
+    max-height: 750px;
+    max-width: 360px;
+    overflow: hidden;
+    background-image: url(/img/fondo.jpeg.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: repeat; 
+} 
+
+.contenedor {
     display: flex;
     flex-direction: column;
     background-color: #fefefe;
@@ -20,10 +38,10 @@ body {
     background-position: center; /* Centra la imagen en el fondo */
     background-repeat: repeat; /* Evita que la imagen de fondo se repita */
     position: absolute;
-    max-height: 750px;
-    max-width: 360px;
-    overflow: hidden;
-} 
+    max-width: 98%;
+    max-height: 90%;
+}
+
 .lateral1 {
     display: flex;
     flex-direction: column;
@@ -55,8 +73,7 @@ body {
     transform: rotate(180deg);
 }
 .flor4 {
-    margin-right: -10px;
-    transform: rotateX(150deg);
+    transform: rotateX(170deg) rotateY(160deg);
 }
     
 .flor5 {
@@ -66,8 +83,8 @@ body {
 .top1 {
     display: flex;
     position: relative;
-    top: -700px;
-    left: 35%;
+    top: -650px;
+    left: 75%;
 }
 
 .chica {
@@ -133,9 +150,9 @@ body {
 } 
 
 .cita {
-    position: relative;
+    /* position: relative;
     top: -400px;
-    left: 20%;
+    left: 20%; */
     max-height: 200px;
     max-width: 300px;
     text-align: center;
@@ -150,8 +167,9 @@ body {
 }
 
 .infoFecha {
-    position: relative;
+    /* position: relative;
     max-height: 50px;
+    max-width: 90px; */
     top: -450px;
     left: 35%;
     display: flex;
@@ -176,9 +194,9 @@ body {
 }
 
 .direccion {
-    position: relative;
+    /* position: relative;
     top: -430px;
-    left: 17%;
+    left: 17%; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -237,9 +255,9 @@ body {
 }
 
 .xv {
-    position: relative;
+    /* position: relative;
     top: -410px;
-    left: 50%;
+    left: 50%; */
     font-size: 22px;
     font-family: Bellefair;
 }
@@ -250,4 +268,23 @@ body {
     display: flex;
     gap: 50px;
     max-height: 150px;
+}
+
+.container {
+    background-image: url(./img/fondoprueba1.png);
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 170px;
+    padding-left: 70px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
