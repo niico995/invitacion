@@ -27,22 +27,22 @@ body {
     max-width: 25%;
 }
 .flor  {
-    width: 140px;
+    width: 180px;
     margin-top: 15px;
-    margin-left: -70px;
+    margin-left: -100px;
     transform: rotateX(5deg) rotateY(180deg);
 }
 .flor2 {
-    width: 140px;
+    width: 180px;
     margin-top: -25px;
-    margin-left: -90px;
+    margin-left: -110px;
     transform: rotate(12deg);
 }
 
 .flor3 {
-    width: 140px;
-    margin-top: -25px;
-    margin-left: -70px;
+    width: 180px;
+    margin-top: -15px;
+    margin-left: -90px;
     transform: rotateX(5deg) rotateY(180deg);
 }
 
@@ -56,19 +56,19 @@ body {
 }
     
 .flor5 {
-    margin-left: -35px;
+    margin-left: -15px;
     transform: rotateX(150deg);
 }
 .top1 {
     display: flex;
     position: relative;
-    top: -640px;
+    top: -800px;
     left: 35%;
 }
 
 .chica {
     position: relative;
-    top: -400px;
+    top: -350px;
 }
 .changuita {
     width: 250px;
