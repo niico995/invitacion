@@ -274,7 +274,7 @@ body {
     background-image: url(./img/fondoprueba2.png);
     background-repeat: no-repeat;
     width: 375px;
-    height: 700px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     padding-top: 105px;
@@ -289,15 +289,3 @@ body {
     gap: 15px;
 }
 
-@media (min-height: 900px ) {
-    .container {
-        background-image: url(./img/fondoprueba1.png);
-        background-repeat: no-repeat;
-        width: 375px;
-        height: 700px;
-        display: flex;
-        flex-direction: column;
-        padding-top: 115px;
-        padding-left: 70px;
-    }
-}
