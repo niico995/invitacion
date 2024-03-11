@@ -20,7 +20,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    height: 900px;
+    height: 750px;
     max-width: 375px;
     overflow-x: hidden;
 }
