@@ -29,6 +29,7 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 25%;
+    max-height: 700px;
 }
 .flor  {
     width: 150px;
@@ -134,7 +135,7 @@ body {
 
 .cita {
     position: relative;
-    top: -800px;
+    top: -600px;
     left: 25%;
     max-height: 200px;
     max-width: 300px;
@@ -152,7 +153,7 @@ body {
 .infoFecha {
     position: relative;
     max-height: 50px;
-    top: -850px;
+    top: -650px;
     left: 40%;
     display: flex;
     gap: 20px;
@@ -177,7 +178,7 @@ body {
 
 .direccion {
     position: relative;
-    top: -800px;
+    top: -630px;
     left: 17%;
     text-align: center;
     display: flex;
@@ -185,6 +186,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 5px;
+    max-width: 320px;
 }
 .dire {
     font-size: 20px;
