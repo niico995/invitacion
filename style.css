@@ -271,13 +271,13 @@ body {
 }
 
 .container {
-    background-image: url(./img/fondoprueba1.png);
+    background-image: url(./img/fondoprueba2.png);
     background-repeat: no-repeat;
     width: 375px;
-    height: 900px;
+    height: 700px;
     display: flex;
     flex-direction: column;
-    padding-top: 170px;
+    padding-top: 105px;
     padding-left: 70px;
 }
 
