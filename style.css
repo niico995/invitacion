@@ -65,3 +65,31 @@ body {
     top: -640px;
     left: 35%;
 }
+
+.chica {
+    position: relative;
+    top: -400px;
+}
+.changuita {
+    width: 250px;
+    transform: rotateY(180deg);
+}
+
+.boton {
+    position: relative;
+    top: -650px;
+    left: 68%;
+    height: 50px;
+    width: 120px;
+    padding-top: 15px;
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color: var(--plata);
+}
+
+.boton a {
+    text-decoration: none;
+    color: var(--azulOscuro);
+    font-size: 18px;
+    font-family: Bellefair;
+}
