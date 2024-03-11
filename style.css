@@ -71,7 +71,7 @@ body {
 
 .chica {
     position: relative;
-    top: -250px;
+    top: -550px;
 }
 .changuita {
     width: 250px;
@@ -100,7 +100,7 @@ body {
 .nombre {
     position: relative;
     top: -700px;
-    left: 30%;
+    left: 40%;
 }
 .posnom {
     position: relative;
