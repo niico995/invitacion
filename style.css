@@ -21,6 +21,7 @@ body {
     background-size: contain;
     position: absolute;
     height: 900px;
+    overflow-x: hidden;
 }
 .lateral1 {
     display: flex;
