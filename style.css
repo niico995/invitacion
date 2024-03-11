@@ -178,7 +178,7 @@ body {
 .direccion {
     position: relative;
     top: -800px;
-    left: 25%;
+    left: 17%;
     text-align: center;
     display: flex;
     flex-direction: column;
