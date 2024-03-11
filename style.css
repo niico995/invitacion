@@ -135,7 +135,7 @@ body {
 .cita {
     position: relative;
     top: -400px;
-    left: 25%;
+    left: 20%;
     max-height: 200px;
     max-width: 300px;
     text-align: center;
@@ -153,7 +153,7 @@ body {
     position: relative;
     max-height: 50px;
     top: -450px;
-    left: 40%;
+    left: 35%;
     display: flex;
     gap: 20px;
     font-size: 30px;
@@ -239,7 +239,7 @@ body {
 .xv {
     position: relative;
     top: -410px;
-    left: 55%;
+    left: 50%;
     font-size: 22px;
     font-family: Bellefair;
 }
