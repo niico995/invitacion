@@ -20,6 +20,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
+    height: 900px;
 }
 .lateral1 {
     display: flex;
