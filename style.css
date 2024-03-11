@@ -73,10 +73,11 @@ body {
 .chica {
     position: relative;
     top: -550px;
+    max-height: 250px;
 }
 .changuita {
     width: 200px;
-    height: 250px;
+    max-height: 250px;
     transform: rotateY(180deg);
 }
 
@@ -102,6 +103,7 @@ body {
 }
 .carta {
     width: 20px;
+    height: 18px;
     margin-left: 2px;
 }
 
@@ -130,3 +132,90 @@ body {
     width: 90px;
 } 
 
+.cita {
+    position: relative;
+    top: -800px;
+    left: 25%;
+    max-height: 200px;
+    max-width: 300px;
+    text-align: center;
+    font-family: Bellefair;
+    font-size: 22px;
+}
+
+.mari2 {
+    position: relative;
+    top: -125px;
+    left: 50%;
+}
+
+.infoFecha {
+    position: relative;
+    max-height: 50px;
+    top: -800px;
+    left: 40%;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    font-family: Bellefair;
+}
+
+.fecha, .hora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.golden {
+    color: #dfc194;
+}
+
+.barrita {
+    border: 2px solid #dfc194;
+}
+
+.direccion {
+    position: relative;
+    top: -750px;
+    left: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.dire {
+    font-size: 20px;
+    font-family: Bellefair;
+}
+.encuadre {
+    border: 1.5px solid var(--azulOscuro);
+    margin: 10px 0;
+}
+
+.ir {
+    margin-top: 10px;
+    height: 40px;
+    width: 120px;
+    padding: 2px;
+    border-radius: 15px;
+    background-color: white;
+    border: 2px solid var(--azulOscuro);
+    text-decoration: none;
+    color: var(--azulOscuro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ropita {
+    width: 20px;
+}
+
+.ropa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
