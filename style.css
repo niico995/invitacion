@@ -18,7 +18,7 @@ body {
     background-image: url(/img/fondo.jpeg.png);
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el fondo */
     background-position: center; /* Centra la imagen en el fondo */
-    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-repeat: repeat; /* Evita que la imagen de fondo se repita */
     position: absolute;
     max-height: 750px;
     max-width: 360px;
