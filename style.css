@@ -17,8 +17,7 @@ body {
     background-color: #fefefe;
     background-image: url(/img/fondo.jpeg.png);
     background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
     position: absolute;
     max-height: 200px;
     max-width: 360px;
