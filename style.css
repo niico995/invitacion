@@ -1,4 +1,4 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,14 +17,14 @@ body {
     background-color: #fefefe;
     background-image: url(/img/fondo.jpeg.png);
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el fondo */
-   /* background-position: center; /* Centra la imagen en el fondo */
-   /* background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
-    /*position: absolute;
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    position: absolute;
     max-height: 750px;
     max-width: 360px;
     overflow-x: hidden;
     overflow-y: hidden;
-} */ /*
+} 
 .lateral1 {
     display: flex;
     flex-direction: column;
@@ -90,7 +90,7 @@ body {
     border-radius: 15px;
     background-color: white;
     border: 2px solid var(--azulOscuro);
-    /*box-shadow: 2px 2px 2px rgb(14, 14, 138);*/ /*
+    /*box-shadow: 2px 2px 2px rgb(14, 14, 138);*/ 
 }
 
 .boton a {
@@ -128,133 +128,5 @@ body {
 }
 .mariposa {
     width: 90px;
-} */
+} 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --azulOscuro: #102B70;
-    --azul: #1751C4;
-    --oroOpaco: #BDB293;
-    --plata: #A9B2C7;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #fefefe;
-    background-image: url(/img/fondo.jpeg.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; /* Ajusta la altura del cuerpo al 100% del viewport */
-    max-width: 100%; /* Ajusta el ancho máximo del cuerpo */
-    overflow: hidden; /* Oculta el desbordamiento para evitar barras de desplazamiento */
-}
-
-.lateral1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 25%;
-}
-
-.flor  {
-    width: 150px;
-    margin-top: 15px;
-    margin-left: -70px;
-    transform: rotateX(5deg) rotateY(180deg);
-}
-
-.flor2 {
-    width: 150px;
-    margin-top: -25px;
-    margin-left: -100px;
-    transform: rotate(12deg);
-}
-
-.flor3 {
-    width: 150px;
-    margin-top: -15px;
-    margin-left: -70px;
-    transform: rotateX(5deg) rotateY(180deg);
-}
-
-.flor4, .flor5 {
-    width: 200px;
-    transform: rotate(180deg);
-}
-
-.flor4 {
-    margin-right: -10px;
-    transform: rotateX(150deg);
-}
-
-.flor5 {
-    margin-left: -15px;
-    transform: rotateX(150deg);
-}
-
-.top1 {
-    display: flex;
-}
-
-.chica {
-    margin-top: -250px; /* Ajusta la posición de la chica */
-}
-
-.boton {
-    margin-top: 50px; /* Ajusta la posición del botón */
-    height: 150px;
-    width: 180px;
-    padding: 10px;
-    border-radius: 15px;
-    background-color: white;
-    border: 2px solid var(--azulOscuro);
-}
-
-.boton a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: var(--azulOscuro);
-    font-size: 18px;
-    font-family: Bellefair;
-}
-
-.carta {
-    width: 20px;
-    margin-left: 2px;
-}
-
-.nombre {
-    display: flex;
-    align-items: center;
-}
-
-.posnom {
-    margin-left: 20px; /* Ajusta el espacio entre la mariposa y el nombre */
-}
-
-.nomb, .apellido {
-    font-size: 72px;
-    font-family: "Alex Brush", cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: var(--azulOscuro);
-}
-
-.apellido {
-    margin-left: 45px;
-}
-
-.mariposa {
-    width: 90px;
-}
